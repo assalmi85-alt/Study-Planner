@@ -1,0 +1,219 @@
+{
+  "ar": {
+    "dir": "rtl",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-right"
+      },
+      "addSubjectBtn": "مادة جديدة",
+      "filterSelectTexts": [
+        {"name": "الكل", "value": "all" },
+        {"name": "الأولوية", "value": "priority"},
+        {"name": "الجديد", "value": "new"},
+        {"name": "المكتملة", "value": "completed"},
+        {"name": "المنتهية", "value": "expired"},
+        {"name": "عدد الدروس", "value": "lessons count"},
+        {"name": "أبجدياً", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "الإعدادات",
+        "homeText": "الرئيسية",
+        "statisticsText": "الإحصائيات",
+        "searchText": "البحث",
+        "profileText": "الملف الشخصي",
+        "complaintsText": "الشكاوى والاقتراحات",
+        "importText": "إستيراد البيانات",
+        "exportText": "تصدير البيانات",
+        "versionText": "الإصدار"
+      },
+      "ctrlPanelBox":{
+        "addText": "إضافة مادة دراسية",
+        "editText": "تعديل المادة الدراسية",
+        "subjectsSelect": [
+          {"name": "الرياضيات", "value": "mathematics"},
+          {"name": "الفيزياء", "value":"physics"},
+          {"name": "الكيمياء", "value": "chemistry"},
+          {"name": "الأحياء", "value": "biology"},
+          {"name": "اللغة الإنجليزية", "value": "english"},
+          {"name": "اللغة العربية", "value": "arabic"},
+          {"name": "التاريخ", "value": "history"},
+          {"name": "الجغرافيا", "value": "geography"},
+          {"name": "البرمجة", "value": "programming"},
+          {"name": "الحاسب الآلي", "value": "computer"},
+          {"name": "التربية الإسلامية", "value": "islamic"},
+          {"name": "الاقتصاد", "value": "economics"},
+          {"name": "العلوم", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "اكتب وصفاً للمادة الدراسية...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "عالية"},
+          {"value": "middle", "name": "متوسطة"},
+          {"value": "low", "name": "منخفضة"}
+        ],
+        "lessonsCountText": "عدد الدروس",
+        "subjectStudyTimeText": "وقت دراسة المادة",
+        "addSubjectBtnText": "إضافة المادة",
+        "editSubjectBtnText": "حفظ التعديلات"
+      },
+      "confirms": {
+        "yesBtnText": "نعم",
+        "noBtnText": "لا",
+        "deleteBoxQuesText": "هل تريد حذف",
+        "removeSubsQuesText": "هل أنت متأكد من هذا الإجراء؟",
+        "removeSubsDesText": "بمجرد الموافقة، لا يمكن التراجع عن هذا الحذف.",
+        "logoutQuesText": "هل ترغب في تسجيل الخروج؟",
+        "logoutDesText": "ستفقد جميع بياناتك المحفوظة محلياً والمقترنة بهذا الحساب.",
+        "deleteAccountQuesText": "هل أنت متأكد تماماً من حذف حسابك؟",
+        "deleteAccountDesText": "سيتم حذف حسابك نهائياً وللأبد، وسيتسبب ذلك في خسارة كافة بياناتك المرتبطة به.",
+        "resetAppQuesText": "هل تريد إعادة تعيين التطبيق؟",
+        "resetAppDesText": "هذا يعني حذف كافة بياناتك بدون استثناء، وتسجيل الخروج نهائياً من حسابك."
+      },
+      "alerts": {
+        "title": "تنبيه:",
+        "okBtn": "حسناً",
+        "emptyFieldsTitle": "يرجى ملء جميع الحقول",
+        "emptyFieldsDes": "لا يمكن للنظام إضافة هذه المادة مع وجود حقول فارغة.",
+        "subTimeStartsInTexts": ["وقتها يبدأ خلال", "ساعات"],
+        "subTimeStartNowText": "وقت دراسة المادة بدأ الآن!"
+      },
+      "messages": {
+        "okBtn": "حسناً",
+        "offlineTitle": "عذراً، حدث خطأ ما من جانبنا!",
+        "offlineDes": "يبدو أن جهازك غير متصل بالإنترنت، يرجى التحقق من اتصال الـ Wi-Fi ثم المحاولة مجدداً.",
+        "successSyncTitle": "تم مزامنة بياناتك بنجاح!",
+        "successSyncDes": "يمكنك الآن الوصول إلى بياناتك واستخدامها على أي جهاز آخر مرتبط بهذا الحساب.",
+        "successRefreshTitle": "تم تحديث بياناتك بنجاح!",
+        "successRefreshDes": "أنت تمتلك الآن أحدث نسخة من بياناتك المتزامنة مع الخادم.",
+        "writeTimerDurationTitle": "يرجى تحديد مدة المؤقت",
+        "writeTimerDurationDes": "لا يمكن للنظام إضافة هذا المؤقت بدون تحديد المدة."
+      },
+      "import": {
+        "title": "إستيراد البيانات",
+        "labelTitle": "ملف البيانات المراد إستيراده",
+        "labelDes": "اضغط هنا لتصفح واختيار الملفات.",
+        "addFileText": "إضافة ملف البيانات إلى التطبيق",
+        "successImport": "تم استيراد بياناتك بنجاح.",
+        "syntaxNotSupport": "صيغة الملف هذه غير مدعومة.",
+        "processingText": "جاري معالجة بياناتك الآن..."
+      },
+      "export": {
+        "title": "تصدير البيانات",
+        "pressBtnToExport": "اضغط على زر تصدير البيانات لبدء العملية.",
+        "des": [
+          "انقر على",
+          "تصدير البيانات",
+          "لبدء استخراج بياناتك، ",
+          "وبعد اكتمال التصدير،",
+          "اضغط على زر التحميل لحفظ ملف البيانات. يمكنك بعدها",
+          "استيراد ",
+          "هذه البيانات في أي تطبيق Study Planner آخر باستخدام هذا الملف."
+        ],
+        "exportBtnText": "تصدير",
+        "successExportText": "تم تصدير بياناتك بنجاح!"
+      },
+      "cards": {
+        "priorityText": "الأولوية:",
+        "lessonsCountText": "عدد الدروس:",
+        "NoDescriptionProvidedText": "لا يوجد وصف متاح",
+        "editBtnText": "تعديل",
+        "deleteBtnText": "حذف",
+        "noSubjectsAddedYetText": "لم تقم بإضافة أي مواد دراسية حتى الآن"
+      },
+      "months": ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+      "search": {
+        "searchInYourSubjectsText": "ابحث في موادك الدراسية...",
+        "tabSearchInpText": "اضغط على حقل البحث للبدء",
+        "noSubjectsFoundText": "لم يتم العثور على أي مواد داسية",
+        "systemCannotGetResultText": "عذراً، تعذر العثور على نتائج لـ"
+      },
+      "profile": {
+        "title": "الملف الشخصي",
+        "welcome": "مرحباً بعودتك،",
+        "syncText": "مزامنة بياناتك",
+        "syncBtnText": "مزامنة",
+        "syncDes": "قم بمزامنة بياناتك ونسخها احتياطياً بشكل آمن على السحابة، لتستكمل دراستك من حيث توقفت تماماً—في أي وقت، ومن أي مكان، وعلى أي جهاز.",
+        "updateText": "تحديث البيانات",
+        "updateBtnText": "تحديث",
+        "updateDes": "قد لا تعكس بياناتك الحالية آخر التغييرات التي أجريتها من أجهزتك الأخرى؛ اضغط 'تحديث' لعرض النسخة الأحدث لبياناتك.",
+        "linkedDevicesText": "الأجهزة المتصلة"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "أولوية المادة:",
+        "subjectLessonsCountText": "عدد الدروس:",
+        "subjectStudyTimeText": "وقت دراسة المادة:",
+        "subjectAddedDateText": "تاريخ إضافة المادة:",
+        "subjectStateText": "حالة المادة:",
+        "questions": {
+          "studySubjectQuesText": ["هل قمت بمذاكرة مادة", "؟"],
+          "crashCourseQuesText": ["هل ترغب في مراجعة مكثفة وسريعة لمادة" , "؟"],
+          "puttingOffStudingSubjectText": ["هل قمت بتأجيل دراسة مادة", "مؤخراً؟"]
+        },
+        "sideMenu": {
+          "addTimerText": "إضافة مؤقت",
+          "pomodoroText": "تقنية البومودورو",
+          "editText": "تعديل",
+          "deleteText": "حذف"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "مؤقت المادة",
+          "addTimerText": "إضافة مؤقت",
+          "writeTimerDurationText": "حدد مدة المؤقت",
+          "addTimerBtnText": "+ إضافة مؤقت"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "تقنية الطماطم (البومودورو)",
+          "pomodoroTimerInfoText": "معلومات مؤقت البومودورو",
+          "studyTimeDurText": "مدة وقت الدراسة",
+          "breakTimeDurText": "مدة وقت الاستراحة",
+          "minutesText": "دقائق",
+          "about": {
+            "title": "تقنية البومودورو (Pomodoro)",
+            "text": "(والتي تعني 'طماطم' باللغة الإيطالية) هي طريقة شهيرة عالمياً لإدارة الوقت وتعزيز الإنتاجية والتركيز، ابتكرها المطور الإيطالي فرانشيسكو سيريلو في أواخر الثمانينيات. تعتمد الفكرة على تقسيم وقت العمل أو الدراسة إلى فترات زمنية قصيرة ومحددة تفصل بينها استراحات وجيزة، مما يمنع الإرهاق الذهني ويحافظ على أعلى مستويات التركيز والطاقة الحيوية."
+          },
+          "startSessionBtnText": "ابدأ الجلسة الآن",
+          "studyText": "دراسة",
+          "breakText": "استراحة",
+          "modeText": "المؤقت قيد التشغيل والعد التنازلي بدأ الآن"
+        }
+      },
+      "settingsPage": {
+        "title": "الإعدادات",
+        "appThemeOptionText": "مظهر التطبيق",
+        "themesSelect": [{"value": "dark light", "name": "الافتراضي"}, {"value": "dark", "name": "داكن"}, {"value": "light", "name": "مضيء"}],
+        "appLangOptionText": "لغة التطبيق",
+        "ringtonesOptionText": "تفعيل النغمات والتنبيهات في التطبيق",
+        "cardsAnimationsOptionText": "تفعيل تأثيرات البطاقات الحركية",
+        "howAppWorksSection": {
+          "ques": "كيف يعمل التطبيق؟",
+          "answr": "يقوم التطبيق بالتحقق من حالة كل مهمة ومادة كل دقيقة ويرسل الإشعارات بناءً على ذلك. وبمجرد حلول منتصف الليل وانتهاء اليوم، يتم تلقائياً إعادة تصنيف المهام غير المكتملة (المعلقة) ونقلها إلى قسم 'المكتملة'، ثم يتم تسجيل النتيجة النهائية لليوم وحفظها في قسم الإحصائيات لمراجعة أدائك اليومي والأسبوعي."
+        },
+        "howCanHelpMeSection": {
+          "ques": "كيف يمكن للتطبيق مساعدتك؟",
+          "answr": "يساعدك التطبيق في تنظيم دراسة موادك وإدارة وقتك بكفاءة، ويوفر لك مجموعة من الأدوات الذكية لتسريع وتيرة المذاكرة، مثل: المؤقت، تقنية البومودورو، الإحصائيات، وغيرها. كما يرسل لك التطبيق تنبيهاً عند اقتراب موعد دراسة المادة، ويقوم بفرز وتصنيف المواد حسب حالتها أو بناءً على أي تفضيل مخصص تختاره."
+        },
+        "dangerZone": {
+          "title": "منطقة الخطر",
+          "removeSubsText": "حذف جميع المواد الدراسية",
+          "removeSubsBtn": "حذف الكل",
+          "resetText": "إعادة تعيين التطبيق بالكامل",
+          "resetBtn": "إعادة تعيين",
+          "logoutText": "تسجيل الخروج من الحساب",
+          "logoutBtn": "تسجيل خروج",
+          "deleteAccountText": "حذف الحساب نهائياً",
+          "deleteAccountBtn": "حذف الحساب"
+        }
+      },
+      "statisticsPage": {
+        "title": "الإحصائيات",
+        "noStatisticsYet": "لا توجد إحصائيات متاحة بعد",
+        "completedText": "مكتملة",
+        "expiredText": "منتهية الصلاحية",
+        "pendingText": "قيد الانتظار",
+        "totalText": "الإجمالي",
+        "allSubjectsIsPendingTemplate": ["جميع المواد الدراسية", "قيد الانتظار"],
+        "resultWordTemplate": ["اسبوع", "جداً!"],
+        "resultWords": ["أسطوووري", "ممتاز", "مبهر", "مقبول", "متوازن", "عادي", "منخفض", "بالكاد", "غير منتج"]
+      }
+    }
+  }
+}

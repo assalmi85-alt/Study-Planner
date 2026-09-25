@@ -1,0 +1,218 @@
+{
+  "de": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "Neues Fach",
+      "filterSelectTexts": [
+        {"name": "Alle", "value": "all" },
+        {"name": "Priorität", "value": "priority"},
+        {"name": "Neu", "value": "new"},
+        {"name": "Abgeschlossen", "value": "completed"},
+        {"name": "Abgelaufen", "value": "expired"},
+        {"name": "Anzahl der Lektionen", "value": "lessons count"},
+        {"name": "Alphabetisch", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "Einstellungen",
+        "homeText": "Startseite",
+        "statisticsText": "Statistiken",
+        "searchText": "Suche",
+        "profileText": "Profil",
+        "complaintsText": "Beschwerden & Feedback",
+        "importText": "Daten importieren",
+        "exportText": "Daten exportieren",
+        "versionText": "Version"
+      },
+      "ctrlPanelBox":{
+        "addText": "Fach hinzufügen",
+        "editText": "Fach bearbeiten",
+        "subjectsSelect": [
+          {"name": "Mathematik", "value": "mathematics"},
+          {"name": "Physik", "value":"physics"},
+          {"name": "Chemie", "value": "chemistry"},
+          {"name": "Biologie", "value": "biology"},
+          {"name": "Englisch", "value": "english"},
+          {"name": "Arabisch", "value": "arabic"},
+          {"name": "Geschichte", "value": "history"},
+          {"name": "Geografie", "value": "geography"},
+          {"name": "Programmierung", "value": "programming"},
+          {"name": "Informatik", "value": "computer"},
+          {"name": "Islamwissenschaft", "value": "islamic"},
+          {"name": "Wirtschaft", "value": "economics"},
+          {"name": "Naturwissenschaften", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "Beschreibung des Fachs...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "Hoch"}, 
+          {"value": "middle", "name": "Mittel"}, 
+          {"value": "low", "name": "Niedrig"}
+        ],
+        "lessonsCountText": "Anzahl der Lektionen",
+        "subjectStudyTimeText": "Lernzeit für das Fach",
+        "addSubjectBtnText": "Fach hinzufügen",
+        "editSubjectBtnText": "Änderungen speichern"
+      },
+      "confirms": {
+        "yesBtnText": "Ja",
+        "noBtnText": "Nein",
+        "deleteBoxQuesText": "Möchten Sie das wirklich löschen:",
+        "removeSubsQuesText": "Sind Sie sicher, dass Sie diese Aktion ausführen möchten?",
+        "removeSubsDesText": "Einmal bestätigt, kann diese Aktion nicht mehr rückgängig gemacht werden.",
+        "logoutQuesText": "Möchten Sie sich von Ihrem Konto abmelden?",
+        "logoutDesText": "Sie verlieren alle lokal mit diesem Konto verknüpften Daten.",
+        "deleteAccountQuesText": "Sind Sie absolut sicher, dass Sie Ihr Konto löschen möchten?",
+        "deleteAccountDesText": "Sie verlieren dieses Konto dauerhaft und für immer, zusammen mit allen damit verbundenen Daten.",
+        "resetAppQuesText": "Möchten Sie die App zurücksetzen?",
+        "resetAppDesText": "Dies bedeutet, dass alle Ihre Daten ausnahmslos gelöscht werden und Sie dauerhaft von Ihrem Konto abgeloggt werden."
+      },
+      "alerts": {
+        "title": "Benachrichtigung",
+        "okBtn": "OK",
+        "emptyFieldsTitle": "Bitte füllen Sie alle Felder aus",
+        "emptyFieldsDes": "Das System kann dieses Fach nicht mit leeren Feldern hinzufügen.",
+        "subTimeStartsInTexts": ["Zeit beginnt in", "Stunden"],
+        "subTimeStartNowText": "Die Lernzeit für das Fach hat jetzt begonnen!",
+        "writeTimerDurationTitle": "Bitte legen Sie die Timer-Dauer fest",
+        "writeTimerDurationDes": "Das System kann diesen Timer nicht ohne Angabe der Dauer hinzufügen."
+      },
+      "messages": {
+        "okBtn": "OK",
+        "offlineTitle": "Ups, da ist etwas schiefgelaufen!",
+        "offlineDes": "Ihr Gerät scheint offline zu sein. Überprüfen Sie Ihre Wi-Fi-Verbindung und versuchen Sie es erneut.",
+        "successSyncTitle": "Ihre Daten wurden erfolgreich synchronisiert!",
+        "successSyncDes": "Sie können Ihre Daten nun auf jedem Ihrer mit diesem Konto verknüpften Geräte verwenden.",
+        "successRefreshTitle": "Ihre Daten wurden erfolgreich aktualisiert!",
+        "successRefreshDes": "Sie verfügen nun über die neueste, mit dem Server synchronisierte Version Ihrer Daten."
+      },
+      "import": {
+        "title": "Daten importieren",
+        "labelTitle": "Zu importierende Datendatei",
+        "labelDes": "Klicken Sie hier, um Dateien zu durchsuchen.",
+        "addFileText": "Datendatei zur App hinzufügen",
+        "successImport": "Der Import Ihrer Daten war erfolgreich.",
+        "syntaxNotSupport": "Das Dateiformat wird nicht unterstützt.",
+        "processingText": "Ihre Daten werden verarbeitet..."
+      },
+      "export": {
+        "title": "Daten exportieren",
+        "pressBtnToExport": "Drücken Sie den Exportieren-Button, um den Vorgang zu starten.",
+        "des": [
+          "Klicken Sie auf",
+          "Daten exportieren",
+          "um die Extraktion zu starten, ",
+          "Sobald der Export abgeschlossen ist,",
+          "klicken Sie auf den Download-Button, um die Datei zu speichern. Sie können diese Daten dann",
+          "importieren ",
+          "in jede andere Study Planner App mithilfe dieser Datei."
+        ],
+        "exportBtnText": "Exportieren",
+        "successExportText": "Ihre Daten wurden erfolgreich exportiert!"
+      },
+      "cards": {
+        "priorityText": "Priorität:",
+        "lessonsCountText": "Anzahl der Lektionen:",
+        "NoDescriptionProvidedText": "Keine Beschreibung vorhanden",
+        "editBtnText": "Bearbeiten",
+        "deleteBtnText": "Löschen",
+        "noSubjectsAddedYetText": "Noch keine Fächer hinzugefügt"
+      },
+      "months": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+      "search": {
+        "searchInYourSubjectsText": "In Ihren Fächern suchen...",
+        "tabSearchInpText": "Tippen Sie auf die Suchleiste, um zu beginnen",
+        "noSubjectsFoundText": "Keine Fächer gefunden",
+        "systemCannotGetResultText": "Es konnten keine Ergebnisse gefunden werden für"
+      },
+      "profile": {
+        "title": "Profil",
+        "welcome": "Willkommen zurück,",
+        "syncText": "Daten synchronisieren",
+        "syncBtnText": "Synchronisieren",
+        "syncDes": "Synchronisieren und sichern Sie Ihre Daten sicher in der Cloud, damit Sie Ihre Arbeit genau dort fortsetzen können, wo Sie aufgehört haben – jederzeit, überall und auf jedem Gerät.",
+        "updateText": "Daten aktualisieren",
+        "updateBtnText": "Aktualisieren",
+        "updateDes": "Ihre aktuelle Version spiegelt möglicherweise nicht die neuesten Änderungen wider, die auf Ihren anderen Geräten vorgenommen wurden. Klicken Sie auf 'Aktualisieren', um die neueste Version anzuzeigen.",
+        "linkedDevicesText": "Verknüpfte Geräte"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "Fachpriorität:",
+        "subjectLessonsCountText": "Anzahl der Lektionen:",
+        "subjectStudyTimeText": "Lernzeit:",
+        "subjectAddedDateText": "Hinzugefügt am:",
+        "subjectStateText": "Status des Fachs:",
+        "questions": {
+          "studySubjectQuesText": ["Haben Sie das Fach", "gelernt?"],
+          "crashCourseQuesText": ["Möchten Sie einen schnellen Intensivkurs für", "machen?"],
+          "puttingOffStudingSubjectText": ["Haben Sie das Lernen für", "in letzter Zeit aufgeschoben?"]
+        },
+        "sideMenu": {
+          "addTimerText": "Timer hinzufügen",
+          "pomodoroText": "Pomodoro-Technik",
+          "editText": "Bearbeiten",
+          "deleteText": "Löschen"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "Fach-Timer",
+          "addTimerText": "Timer hinzufügen",
+          "writeTimerDurationText": "Timer-Dauer festlegen",
+          "addTimerBtnText": "+ Timer hinzufügen"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "Pomodoro-Technik",
+          "pomodoroTimerInfoText": "Informationen zum Pomodoro-Timer",
+          "studyTimeDurText": "Dauer der Lernzeit",
+          "breakTimeDurText": "Dauer der Pausenzeit",
+          "minutesText": "Minuten",
+          "about": {
+            "title": "Die Pomodoro-Technik",
+            "text": "(was auf Italienisch 'Tomate' bedeutet) ist eine weltweit anerkannte Methode zur Zeitverwaltung und Steigerung von Produktivität und Fokus. Sie wurde Ende der 1980er Jahre vom italienischen Entwickler Francesco Cirillo erfunden. Das Konzept basiert darauf, die Arbeits- oder Lernzeit in kurze, definierte Intervalle zu unterteilen, die von kurzen Pausen unterbrochen werden. Dies beugt geistiger Erschöpfung vor und hält Konzentration und Energie auf höchstem Niveau."
+          },
+          "startSessionBtnText": "Sitzung starten",
+          "studyText": "Lernen",
+          "breakText": "Pause",
+          "modeText": "Der Timer läuft jetzt"
+        }
+      },
+      "settingsPage": {
+        "title": "Einstellungen",
+        "appThemeOptionText": "App-Design",
+        "themesSelect": [{"value": "dark light", "name": "Standard"}, {"value": "dark", "name": "Dunkel"}, {"value": "light", "name": "Hell"}],
+        "appLangOptionText": "App-Sprache",
+        "ringtonesOptionText": "Klingeltöne in der App aktivieren",
+        "cardsAnimationsOptionText": "Kartenanimationen aktivieren",
+        "howAppWorksSection": {
+          "ques": "Wie funktioniert die Anwendung?",
+					"answr": "Die App überprüft jede Minute den Status jedes Elements und sendet entsprechende Benachrichtigungen. Sobald Mitternacht schlägt und der Tag endet, werden alle unvollständigen (ausstehenden) Elemente automatisch als 'abgeschlossen' neu klassifiziert und in den entsprechenden Bereich verschoben. Das Endergebnis des Tages wird dann im Statistikbereich gespeichert, damit Sie Ihre tägliche und wöchentliche Leistung überprüfen können."
+				},
+				"howCanHelpMeSection": {
+					"ques": "Wie kann Ihnen die Anwendung helfen?",
+					"answr": "Die App hilft Ihnen, das Lernen für Ihre Fächer zu planen und Ihre Zeit effizient zu verwalten. Sie bietet intelligente Werkzeuge, um das Lernen zu beschleunigen, wie z. B.: Timer, Pomodoro, Statistiken und mehr. Die App sendet eine Warnung, wenn die Lernzeit näher rückt, und sortiert die Fächer nach Status oder Ihren persönlichen Vorlieben."
+				},
+				"dangerZone": {
+					"title": "Gefahrenzone",
+					"removeSubsText": "Alle Fächer löschen",
+					"removeSubsBtn": "Alle löschen",
+					"resetText": "Anwendung komplett zurücksetzen",
+					"resetBtn": "Zurücksetzen",
+					"logoutText": "Vom Konto abmelden",
+					"logoutBtn": "Abmelden",
+					"deleteAccountText": "Ihr Konto dauerhaft löschen",
+					"deleteAccountBtn": "Konto löschen"
+				}
+			},
+			"statisticsPage": {
+				"title": "Statistiken",
+				"noStatisticsYet": "Noch keine Statistiken verfügbar",
+				"completedText": "abgeschlossen","expiredText": "abgelaufen",
+				"pendingText": "ausstehend",
+				"totalText": "Gesamt",
+				"allSubjectsIsPendingTemplate": ["Alle Fächer sind", "ausstehend"],
+				"resultWordTemplate": ["Woche", "sehr!"],
+				"resultWords": ["Legendäre", "Exzellente", "Beeindruckende", "Passable", "Ausgewogene", "Gewöhnliche", "Geringe", "Mühsame", "Unproduktive"]
+			}
+		}
+	}
+}

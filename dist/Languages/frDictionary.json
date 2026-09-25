@@ -1,0 +1,216 @@
+{
+  "fr": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "Nouvelle Matière",
+      "filterSelectTexts": [
+        {"name": "Tout", "value": "all" },
+        {"name": "Priorité", "value": "priority"},
+        {"name": "Nouveau", "value": "new"},
+        {"name": "Terminé", "value": "completed"},
+        {"name": "Expiré", "value": "expired"},
+        {"name": "Nombre de leçons", "value": "lessons count"},
+        {"name": "Alphabétique", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "Paramètres",
+        "homeText": "Accueil",
+        "statisticsText": "Statistiques",
+        "searchText": "Recherche",
+        "profileText": "Profil",
+        "complaintsText": "Réclamations",
+        "importText": "Importer",
+        "exportText": "Exporter",
+        "versionText": "version"
+      },
+      "ctrlPanelBox":{
+        "addText": "Ajouter une matière",
+        "editText": "Modifier la matière",
+        "subjectsSelect": [
+          {"name": "Mathématiques", "value": "mathematics"},
+          {"name": "Physique", "value":"physics"},
+          {"name": "Chimie", "value": "chemistry"},
+          {"name": "Biologie", "value": "biology"},
+          {"name": "Anglais", "value": "english"},
+          {"name": "Arabe", "value": "arabic"},
+          {"name": "Histoire", "value": "history"},
+          {"name": "Géographie", "value": "geography"},
+          {"name": "Programmation", "value": "programming"},
+          {"name": "Informatique", "value": "computer"},
+          {"name": "Éducation Islamique", "value": "islamic"},
+          {"name": "Économie", "value": "economics"},
+          {"name": "Sciences", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "Description de la matière...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "Haute"},
+          {"value": "middle", "name": "Moyenne"},
+          {"value": "low", "name": "Basse"}
+        ],
+        "lessonsCountText": "Nombre de leçons",
+        "subjectStudyTimeText": "Temps d'étude de la matière",
+        "addSubjectBtnText": "Ajouter la matière",
+        "editSubjectBtnText": "Enregistrer les modifications"
+      },
+      "confirms": {
+        "yesBtnText": "Oui",
+        "noBtnText": "Non",
+        "deleteBoxQuesText": "Voulez-vous supprimer",
+        "removeSubsQuesText": "Êtes-vous sûr de vouloir effectuer cette action ?",
+        "removeSubsDesText": "Une fois approuvée, cette action est irréversible.",
+        "logoutQuesText": "Voulez-vous vous déconnecter de votre compte ?",
+        "logoutDesText": "Vous perdrez toutes vos données associées à ce compte localement.",
+        "deleteAccountQuesText": "Êtes-vous absolument sûr de vouloir supprimer votre compte ?",
+        "deleteAccountDesText": "Vous perdrez ce compte définitivement et pour toujours, ainsi que toutes les données qui y sont associées.",
+        "resetAppQuesText": "Voulez-vous réinitialiser l'application ?",
+        "resetAppDesText": "Cela entraînera la suppression de toutes vos données sans exception et votre déconnexion définitive."
+      },
+      "alerts": {
+        "title": "Alerte",
+        "okBtn": "OK",
+        "emptyFieldsTitle": "Veuillez remplir tous les champs",
+        "emptyFieldsDes": "Le système ne peut pas ajouter cette matière avec des champs vides.",
+        "subTimeStartsInTexts": ["le temps commence dans", "heures"],
+        "subTimeStartNowText": "L'étude de la matière commence maintenant !",
+        "writeTimerDurationTitle": "Veuillez définir la durée du minuteur",
+        "writeTimerDurationDes": "Le système ne peut pas ajouter ce minuteur sans en spécifier la durée."
+      },
+      "messages": {
+        "okBtn": "OK",
+        "offlineTitle": "Oups, un problème est survenu de notre côté !",
+        "offlineDes": "Votre appareil semble hors ligne. Vérifiez votre connexion Wi-Fi et réessayez.",
+        "successSyncTitle": "Vos données ont été synchronisées avec succès !",
+        "successSyncDes": "Vous pouvez maintenant utiliser vos données sur n'importe quel appareil connecté à ce compte.",
+        "successRefreshTitle": "Vos données ont été mises à jour avec succès !",
+        "successRefreshDes": "Vous disposez désormais de la dernière version de vos données, synchronisée avec le serveur."
+      },
+      "import": {
+        "title": "Importer des données",
+        "labelTitle": "Fichier de données à importer",
+        "labelDes": "Cliquez ici pour parcourir les fichiers.",
+        "addFileText": "Ajouter le fichier de données à l'application",
+        "successImport": "L'importation de vos données a réussi.",
+        "syntaxNotSupport": "Le format de ce fichier n'est pas pris en charge.",
+        "processingText": "Traitement de vos données en cours..."
+      },
+      "export": {
+        "title": "Exporter des données",
+        "pressBtnToExport": "Appuyez sur le bouton d'exportation pour commencer.",
+        "des": [
+          "Cliquez sur",
+          "Exporter les données",
+          "pour commencer l'extraction, ",
+          "Une fois l'exportation terminée,",
+          "cliquez sur le bouton de téléchargement pour enregistrer le fichier. Vous pourrez ensuite",
+          "importer ",
+          "ces données dans n'importe quelle autre application Study Planner en utilisant ce fichier."
+        ],
+        "exportBtnText": "Exporter",
+        "successExportText": "Vos données ont été exportées avec succès !"
+      },
+      "cards": {
+        "priorityText": "Priorité :",
+        "lessonsCountText": "Nombre de leçons :",
+        "NoDescriptionProvidedText": "Aucune description fournie",
+        "editBtnText": "Modifier",
+        "deleteBtnText": "Supprimer",
+        "noSubjectsAddedYetText": "Aucune matière ajoutée pour le moment"
+      },
+      "months": ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
+      "search": {
+        "searchInYourSubjectsText": "Rechercher dans vos matières...",
+        "tabSearchInpText": "Appuyez sur la barre de recherche pour commencer",
+        "noSubjectsFoundText": "Aucune matière trouvée",
+        "systemCannotGetResultText": "Désolé, impossible de trouver des résultats pour"
+      },
+      "profile": {
+        "title": "Profil",
+        "welcome": "Bon retour parmi nous,",
+        "syncText": "Synchroniser vos données",
+        "syncBtnText": "Synchroniser",
+        "syncDes": "Synchronisez et sauvegardez vos données en toute sécurité sur le cloud pour reprendre votre étude là où vous vous étiez arrêté—à tout moment, partout et sur n'importe quel appareil.",
+        "updateText": "Mettre à jour vos données",
+        "updateBtnText": "Actualiser",
+        "updateDes": "Votre version actuelle peut ne pas refléter les derniers changements effectués sur vos autres appareils ; cliquez sur 'Actualiser' pour voir la version la plus récente.",
+        "linkedDevicesText": "Appareils connectés"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "Priorité de la matière :",
+        "subjectLessonsCountText": "Nombre de leçons :",
+        "subjectStudyTimeText": "Temps d'étude :",
+        "subjectAddedDateText": "Date d'ajout :",
+        "subjectStateText": "Statut de la matière :",
+        "questions": {
+          "studySubjectQuesText": ["Avez-vous étudié la matière", "?"],
+          "crashCourseQuesText": ["Voulez-vous réviser intensivement la matière" , "rapidement ?"],
+          "puttingOffStudingSubjectText": ["Avez-vous reporté l'étude de la matière", "dernièrement ?"]
+        },
+        "sideMenu": {
+          "addTimerText": "Ajouter un minuteur",
+          "pomodoroText": "Technique Pomodoro",
+          "editText": "Modifier",
+          "deleteText": "Supprimer"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "Minuteur de la matière",
+          "addTimerText": "Ajouter un minuteur",
+          "writeTimerDurationText": "Définir la durée du minuteur",
+          "addTimerBtnText": "+ Ajouter un minuteur"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "Technique Pomodoro",
+          "pomodoroTimerInfoText": "Informations sur le minuteur Pomodoro",
+          "studyTimeDurText": "Durée du temps d'étude",
+          "breakTimeDurText": "Durée du temps de pause",
+          "minutesText": "minutes",
+          "about": {
+            "title": "La Technique Pomodoro",
+            "text": "(qui signifie 'tomate' en italien) est une méthode de gestion du temps et d'amélioration de la productivité mondialement reconnue, inventée par le développeur italien Francesco Cirillo à la fin des années 1980. Le concept consiste à diviser le temps de travail ou d'étude en intervalles courts et définis séparés par de brèves pauses, évitant ainsi la fatigue mentale et maintenant un niveau maximal de concentration et d'énergie."
+          },
+          "startSessionBtnText": "Commencer la session",
+          "studyText": "Étude",
+          "breakText": "Pause",
+          "modeText": "Le minuteur est en cours d'exécution maintenant"
+        }
+      },
+      "settingsPage": {
+        "title": "Paramètres",
+        "appThemeOptionText": "Thème de l'application",
+        "themesSelect": [{"value": "dark light", "name": "Par défaut"}, {"value": "dark", "name": "Sombre"}, {"value": "light", "name": "Clair"}],
+        "appLangOptionText": "Langue de l'application",
+        "ringtonesOptionText": "Activer les sonneries dans l'application",
+        "cardsAnimationsOptionText": "Activer les animations de cartes",
+        "howAppWorksSection": {
+          "ques": "Comment fonctionne l'application ?",
+          "answr": "L'application vérifie le statut de chaque élément chaque minute et envoie des notifications en conséquence. Une fois minuit passé et la journée terminée, tous les éléments non complétés (en attente) sont automatiquement reclassés comme 'terminés' et déplacés vers la section correspondante ; le résultat final de la journée est alors enregistré dans la section statistiques pour examiner vos performances quotidiennes et hebdomadaires."},
+        "howCanHelpMeSection": {
+          "ques": "Comment l'application peut-elle vous aider ?",
+          "answr": "L'application vous aide à planifier l'étude de vos matières et à gérer votre temps efficacement. Elle met à votre disposition des outils intelligents pour accélérer l'apprentissage, tels que : Minuteur, Pomodoro, Statistiques, et plus encore. L'application envoie une alerte lorsque le moment d'étudier approche et trie les matières selon leur statut ou vos préférences."
+        },
+        "dangerZone": {
+          "title": "Zone de Danger",
+          "removeSubsText": "Supprimer toutes les matières",
+          "removeSubsBtn": "Tout supprimer",
+          "resetText": "Réinitialiser complètement l'application",
+          "resetBtn": "Réinitialiser","logoutText": "Se déconnecter du compte",
+          "logoutBtn": "Déconnexion","deleteAccountText": "Supprimer définitivement le compte",
+          "deleteAccountBtn": "Supprimer le compte"
+        }
+      },
+      "statisticsPage": {
+        "title": "Statistiques",
+        "noStatisticsYet": "Aucune statistique disponible pour le moment",
+        "completedText": "terminé",
+        "expiredText": "expiré",
+        "pendingText": "en attente",
+        "totalText": "total",
+        "allSubjectsIsPendingTemplate": ["Toutes les matières sont", "en attente"],
+        "resultWordTemplate": ["Semaine", "très !"],
+        "resultWords": ["Légendaire", "Excellente", "Impressionnante", "Passable", "Équilibrée", "Ordinaire", "Basse", "À peine", "Improductive"]
+      }
+    }
+  }
+}

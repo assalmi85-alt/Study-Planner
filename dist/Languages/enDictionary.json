@@ -1,0 +1,207 @@
+{
+  "en": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "New Subject",
+      "filterSelectTexts": [{"name": "All", "value": "all" }, {"name": "Priority", "value": "priority"}, {"name": "New", "value": "new"}, {"name": "Completed", "value": "completed"}, {"name": "Expired", "value": "expired"}, {"name": "Lessons count", "value": "lessons count"}, {"name": "Alphabet", "value": "alphabet"}],
+      "menu": {
+        "settingsText": "Settings",
+        "homeText": "Home",
+        "statisticsText": "Statistics",
+        "searchText": "Search",
+        "profileText": "Profile",
+        "complaintsText": "Complaints",
+        "importText": "Import",
+        "exportText": "Export",
+        "versionText": "version"
+      },
+      "ctrlPanelBox":{
+        "addText": "Add Subject",
+        "editText": "Edit Subject",
+        "subjectsSelect": [
+          {"name": "Mathematics", "value": "mathematics"},
+          {"name": "Physics", "value":"physics"},
+          {"name": "Chemistry", "value": "chemistry"},
+          {"name": "Biology", "value": "biology"},
+          {"name": "English", "value": "english"},
+          {"name": "Arabic", "value": "arabic"},
+          {"name": "History", "value": "history"},
+          {"name": "Geography", "value": "geography"},
+          {"name": "Programming", "value": "programming"},
+          {"name": "Computer", "value": "computer"},
+          {"name": "Islamic", "value": "islamic"},
+          {"name": "Economics", "value": "economics"},
+          {"name": "Science","value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "Subject Description ...",
+        "subjectsPrioritySelect": [{"value":"high", "name": "high"}, {"value": "middle", "name": "middle"}, {"value": "low", "name": "low"}],
+        "lessonsCountText": "Lessons Count",
+        "subjectStudyTimeText": "Subject study time",
+        "addSubjectBtnText": "Add Subject",
+        "editSubjectBtnText": "Edit Subject"
+      },
+      "confirms": {
+        "yesBtnText": "Yes",
+        "noBtnText": "No",
+        "deleteBoxQuesText": "Do you want to delete",
+        "removeSubsQuesText": "Are you sure about this action?",
+        "removeSubsDesText": "Once approved, there is no turning back.",
+        "logoutQuesText": "Log out from your account?",
+        "logoutDesText": "You will lose all your data linked to this account locally.",
+        "deleteAccountQuesText": "Are you sure about delete your account?",
+        "deleteAccountDesText": "You will lose this account permanently and forever, along with all data associated with it.",
+        "resetAppQuesText": "Are you want to reset the app?",
+        "resetAppDesText": "This means deleting all your data without exception and permanently logging out of your account."
+      },
+      "alerts": {
+        "title": "Alert",
+        "okBtn": "OK",
+        "emptyFieldsTitle": "Please fill all the fields",
+        "emptyFieldsDes": "The system cannot add this subject with empty fields.",
+        "subTimeStartsInTexts": ["time starts in", "hours"],
+        "subTimeStartNowText": "subject is Started Now!",
+        "writeTimerDurationTitle": "Please write timer duration",
+        "writeTimerDurationDes": "The system cannot add this timer"
+      },
+      "messages": {
+        "okBtn": "OK",
+        "offlineTitle": "Oops, something went wrong, on our end!",
+        "offlineDes": "Your device look offline, check than your Wi-Fi connect and try again.",
+        "successSyncTitle": "Your data has been successfully sync!",
+        "successSyncDes": "You can now use your data on any of your devices linked to this account.",
+        "successRefreshTitle": "Your data has been successfully updated!",
+        "successRefreshDes": "You possess the latest version of your data, sync with the server."
+      },
+      "import": {
+        "title": "Import Data",
+        "labelTitle": "Import data file",
+        "labelDes": "Click here to explore files.",
+        "addFileText": "Add data file to the app",
+        "successImport": "The import for your data is success.",
+        "syntaxNotSupport": "The file syntax is not support.",
+        "processingText": "Processing your data ..."
+      },
+      "export": {
+        "title": "Export Data",
+        "pressBtnToExport": "Press Export data button to start the export.",
+        "des": [
+          "Click",
+          "Export the data",
+          "to start exporting your data, ",
+          "After the export is done,",
+          "click the download button to download the data file, You can then",
+          "import ",
+          "the data into any Study Planner app using this file."
+        ],
+        "exportBtnText": "Export",
+        "successExportText": "Your data has been successfully export!"
+      },
+      "cards": {
+        "priorityText": "Priority:",
+        "lessonsCountText": "Lessons Count:",
+        "NoDescriptionProvidedText": "No Description Provided",
+        "editBtnText": "Edit",
+        "deleteBtnText": "Delete",
+        "noSubjectsAddedYetText": "No subjects added yet"
+      },
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "search": {
+        "searchInYourSubjectsText": "Search in your subjects...",
+        "tabSearchInpText": "Tab search input to search",
+        "noSubjectsFoundText": "No Subjects Found",
+        "systemCannotGetResultText": "System Connot get result of"
+      },
+      "profile": {
+        "title": "Profile",
+        "welcome": "Welcome Back,",
+        "syncText": "Sync your data",
+        "syncBtnText": "Sync",
+        "syncDes": "Sync and securely back up your data to the cloud, so you can pick up right where you left off—anytime, anywhere, on any device.",
+        "updateText": "Update your data",
+        "updateBtnText": "Refresh",
+        "updateDes": "Your current data version may not reflect the latest changes made across your various devices; click 'Refresh' to view the latest version of your data.",
+        "linkedDevicesText": "Linked devices"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "Subject Priority:",
+        "subjectLessonsCountText": "Lessons count:",
+        "subjectStudyTimeText": "Subject study time:",
+        "subjectAddedDateText": "Subject added date:",
+        "subjectStateText": "Subject State:",
+        "questions": {
+          "studySubjectQuesText": ["Have you studied the", "?"],
+          "crashCourseQuesText": ["Do you want to crash course" , "fast ?"],
+          "puttingOffStudingSubjectText": ["Are you putting off studying", "lately ?"]
+        },
+        "sideMenu": {
+          "addTimerText": "Add timer",
+          "pomodoroText": "Pomodoro",
+          "editText": "Edit",
+          "deleteText": "Delete"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "Subject timer",
+          "addTimerText": "Add timer",
+          "writeTimerDurationText": "Write timer duration",
+          "addTimerBtnText": "+ Add timer"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "Pomodoro",
+          "pomodoroTimerInfoText": "Pomodoro Timer Information",
+          "studyTimeDurText": "Study Time Duration",
+          "breakTimeDurText": "Break Time Duration",
+          "minutesText": "minutes",
+          "about": {
+            "title": "The Pomodoro Technique",
+            "text": "(meaning 'tomato' in Italian) is a globally renowned method for time management and enhancing productivity and focus, invented by Italian developer Francesco Cirillo in the late 1980s. The concept involves breaking work or study time into short, defined intervals separated by brief breaks, thereby preventing mental fatigue and maintaining peak levels of concentration and energy."
+          },
+          "startSessionBtnText": "Start the session",
+          "studyText": "Study",
+          "breakText": "Break",
+          "modeText": "time timer is running now"
+        }
+      },
+      "settingsPage": {
+        "title": "Settings",
+        "appThemeOptionText": "App theme",
+        "themesSelect": [{"value": "dark light", "name": "Default"}, {"value": "dark", "name": "Dark"}, {"value": "light", "name": "Light"}],
+        "appLangOptionText": "App language",
+        "ringtonesOptionText": "Enable ringtones in the app",
+        "cardsAnimationsOptionText": "Enable card animations",
+        "howAppWorksSection": {
+          "ques": "How the application works",
+          "answr": "The app checks the status of each item every minute and sends notifications accordingly. Once midnight strikes and the day ends, any uncompleted (pending) items are automatically reclassified as 'completed' and moved to the completed items section; the day's final result is then recorded and saved in the statistics section for review of daily and weekly performance."
+        },
+        "howCanHelpMeSection": {
+          "ques": "How the application can help you",
+          "answr": "The app can help you study your subjects and manage your time for you, and give you a lot of helpful tools to make the study faster, for example: Timer, Pomodoro, Statistics, and more. the app sends an alert when the time of the subjects is drawing near, and sorts the subjects by status or any custom preference."
+        },
+        "dangerZone": {
+          "title": "Danger Zone",
+          "removeSubsText": "Remove all subjects",
+          "removeSubsBtn": "Remove",
+          "resetText": "Reset application",
+          "resetBtn": "Reset",
+          "logoutText": "Log out from your account",
+          "logoutBtn": "Log out",
+          "deleteAccountText": "Delete your account",
+          "deleteAccountBtn": "Delete"
+        }
+      },
+      "statisticsPage": {
+        "title": "Statistics",
+        "noStatisticsYet": "No statistics yet",
+        "completedText": "completed",
+        "expiredText": "expired",
+        "pendingText": "pending",
+        "totalText": "total",
+        "allSubjectsIsPendingTemplate": ["All Subjects is", "Pending"],
+        "resultWordTemplate": ["Very", "Week!"],
+        "resultWords": ["Zero", "Excellent", "Impressive", "Passable", "Balanced", "Plain", "Low", "Hardly", "Unproductive"]
+      }
+    }
+  }
+}

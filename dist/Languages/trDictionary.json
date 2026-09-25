@@ -1,0 +1,219 @@
+{
+  "tr": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "Yeni Ders",
+      "filterSelectTexts": [
+        {"name": "Hepsi", "value": "all" },
+        {"name": "Öncelik", "value": "priority"},
+        {"name": "Yeni", "value": "new"},
+        {"name": "Tamamlananlar", "value": "completed"},
+        {"name": "Süresi Dolanlar", "value": "expired"},
+        {"name": "Ders Sayısı", "value": "lessons count"},
+        {"name": "Alfabetik", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "Ayarlar",
+        "homeText": "Ana Sayfa",
+        "statisticsText": "İstatistikler",
+        "searchText": "Ara",
+        "profileText": "Profil",
+        "complaintsText": "Şikayet ve Öneriler",
+        "importText": "Veri Aktar (İçe Aktar)",
+        "exportText": "Veri Yedekle (Dışa Aktar)",
+        "versionText": "sürüm"
+      },
+      "ctrlPanelBox":{
+        "addText": "Ders Ekle",
+        "editText": "Dersi Düzenle",
+        "subjectsSelect": [
+          {"name": "Matematik", "value": "mathematics"},
+          {"name": "Fizik", "value":"physics"},
+          {"name": "Kimya", "value": "chemistry"},
+          {"name": "Biyoloji", "value": "biology"},
+          {"name": "İngilizce", "value": "english"},
+          {"name": "Arapça", "value": "arabic"},
+          {"name": "Tarih", "value": "history"},
+          {"name": "Coğrafya", "value": "geography"},
+          {"name": "Programlama", "value": "programming"},
+          {"name": "Bilişim Teknolojileri", "value": "computer"},
+          {"name": "Din Kültürü", "value": "islamic"},
+          {"name": "Ekonomi", "value": "economics"},
+          {"name": "Fen Bilimleri", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "Ders açıklaması...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "Yüksek"},
+          {"value": "middle", "name": "Orta"},
+          {"value": "low", "name": "Düşük"}
+        ],
+        "lessonsCountText": "Ders Sayısı",
+        "subjectStudyTimeText": "Çalışma Süresi",
+        "addSubjectBtnText": "Dersi Ekle",
+        "editSubjectBtnText": "Değişiklikleri Kaydet"
+      },
+      "confirms": {
+        "yesBtnText": "Evet",
+        "noBtnText": "Hayır",
+        "deleteBoxQuesText": "Silmek istiyor musunuz:",
+        "removeSubsQuesText": "Bu işlemi gerçekleştirmek istediğinize emin misiniz?",
+        "removeSubsDesText": "Onaylandığı takdirde bu işlem geri alınamaz.",
+        "logoutQuesText": "Hesabınızdan çıkış yapmak istiyor musunuz?",
+        "logoutDesText": "Bu hesaba yerel olarak bağlı tüm verilerinizi kaybedeceksiniz.",
+        "deleteAccountQuesText": "Hesabınızı silmek istediğinize tamamen emin misiniz?",
+        "deleteAccountDesText": "Bu hesabı ve hesaba bağlı tüm verileri bir daha geri alınamayacak şekilde kalıcı olarak kaybedeceksiniz.",
+        "resetAppQuesText": "Uygulamayı sıfırlamak istiyor musunuz?",
+        "resetAppDesText": "Bu işlem istisnasız tüm verilerinizin silinmesi ve hesabınızdan kalıcı olarak çıkış yapılması anlamına gelir."
+      },
+      "alerts": {
+        "title": "Uyarı",
+        "okBtn": "Tamam",
+        "emptyFieldsTitle": "Lütfen tüm alanları doldurun",
+        "emptyFieldsDes": "Sistem, boş alanlar varken bu dersi ekleyemez.",
+        "subTimeStartsInTexts": ["süre başlıyor:", "saat"],
+        "subTimeStartNowText": "Ders çalışma süresi şimdi başladı!",
+        "writeTimerDurationTitle": "Lütfen zamanlayıcı süresini belirleyin",
+        "writeTimerDurationDes": "Sistem, süre belirtilmeden bu zamanlayıcıyı ekleyemez."
+      },
+      "messages": {
+        "okBtn": "Tamam",
+        "offlineTitle": "Tüh, bizden kaynaklanan bir sorun oluştu!",
+        "offlineDes": "Cihazınız çevrimdışı görünüyor. Lütfen Wi-Fi bağlantınızı kontrol edip tekrar deneyin.",
+        "successSyncTitle": "Verileriniz başarıyla senkronize edildi!",
+        "successSyncDes": "Artık verilerinizi bu hesaba bağlı diğer tüm cihazlarınızda kullanabilirsiniz.",
+        "successRefreshTitle": "Verileriniz başarıyla güncellendi!",
+        "successRefreshDes": "Sunucuyla senkronize edilmiş en güncel verilere sahipsiniz."
+      },
+      "import": {
+        "title": "Veri İçe Aktar",
+        "labelTitle": "İçe aktarılacak veri dosyası",
+        "labelDes": "Dosyalara göz atmak için buraya tıklayın.",
+        "addFileText": "Veri dosyasını uygulamaya ekle",
+        "successImport": "Verileriniz başarıyla içe aktarıldı.",
+        "syntaxNotSupport": "Bu dosya formatı desteklenmiyor.",
+        "processingText": "Verileriniz işleniyor..."
+      },
+      "export": {
+        "title": "Veri Dışa Aktar",
+        "pressBtnToExport": "İşlemi başlatmak için dışa aktar butonuna basın.",
+        "des": [
+          "Verileri dışa aktarmak için",
+          "Dışa Aktar",
+          "butonuna tıklayın, ",
+          "İşlem tamamlandıktan sonra,",
+          "dosyayı kaydetmek için indir butonuna tıklayın. Daha sonra bu dosyayı kullanarak",
+          "verilerinizi ",
+          "herhangi bir Study Planner uygulamasına aktarabilirsiniz."
+        ],
+        "exportBtnText": "Dışa Aktar",
+        "successExportText": "Verileriniz başarıyla dışa aktarıldı!"
+      },
+      "cards": {
+        "priorityText": "Öncelik:",
+        "lessonsCountText": "Ders Sayısı:",
+        "NoDescriptionProvidedText": "Açıklama bulunmuyor",
+        "editBtnText": "Düzenle",
+        "deleteBtnText": "Sil",
+        "noSubjectsAddedYetText": "Henüz hiç ders eklenmedi"
+      },
+      "months": ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
+      "search": {
+        "searchInYourSubjectsText": "Derslerinizde arayın...",
+        "tabSearchInpText": "Aramaya başlamak için arama çubuğuna dokunun",
+        "noSubjectsFoundText": "Hiçbir ders bulunamadı",
+        "systemCannotGetResultText": "Üzgünüz, şunun için sonuç bulunamadı:"
+      },
+      "profile": {
+        "title": "Profil",
+        "welcome": "Tekrar hoş geldin,",
+        "syncText": "Verilerinizi Senkronize Edin",
+        "syncBtnText": "Senkronize Et",
+        "syncDes": "Verilerinizi bulutta güvenli bir şekilde yedekleyin; böylece dilediğiniz zaman, dilediğiniz cihazdan çalışmanıza kaldığınız yerden devam edebilirsiniz.",
+        "updateText": "Verilerinizi Güncelleyin",
+        "updateBtnText": "Yenile",
+        "updateDes": "Mevcut sürümünüz diğer cihazlarınızda yaptığınız son değişiklikleri yansıtmıyor olabilir; en güncel halini görmek için 'Yenile'ye tıklayın.",
+        "linkedDevicesText": "Bağlı Cihazlar"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "Ders Önceliği:",
+        "subjectLessonsCountText": "Ders sayısı:",
+        "subjectStudyTimeText": "Çalışma süresi:",
+        "subjectAddedDateText": "Eklendiği tarih:",
+        "subjectStateText": "Ders Durumu:",
+        "questions": {
+          "studySubjectQuesText": ["Bu dersi çalıştınız mı:", "?"],
+          "crashCourseQuesText": ["Bu dersi hızlıca", "yoğun bir şekilde gözden geçirmek ister misiniz?"],
+          "puttingOffStudingSubjectText": ["Son zamanlarda bu dersi", "erteliyor musunuz?"]
+        },
+        "sideMenu": {
+          "addTimerText": "Zamanlayıcı Ekle",
+          "pomodoroText": "Pomodoro Tekniği",
+          "editText": "Düzenle",
+          "deleteText": "Sil"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "Ders Zamanlayıcı",
+          "addTimerText": "Zamanlayıcı ekle",
+          "writeTimerDurationText": "Zamanlayıcı süresini belirleyin",
+          "addTimerBtnText": "+ Zamanlayıcı Ekle"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "Pomodoro Tekniği",
+          "pomodoroTimerInfoText": "Pomodoro Zamanlayıcı Bilgisi",
+          "studyTimeDurText": "Çalışma Süresi",
+          "breakTimeDurText": "Mola Süresi",
+          "minutesText": "dakika",
+          "about": {
+            "title": "Pomodoro Tekniği Nedir?",
+            "text": "(İtalyanca'da 'domates' anlamına gelir) 1980'lerin sonunda İtalyan geliştirici Francesco Cirillo tarafından bulunan, dünya çapında tanınan bir zaman yönetimi ve verimlilik artırma metodudur. Bu konsept, çalışma sürelerini kısa ve belirli aralıklara bölüp aralara küçük molalar vermeye dayanır; böylece zihinsel yorgunluğu önler, odaklanma ve enerjiyi en üst seviyede tutar."
+          },
+          "startSessionBtnText": "Oturumu Başlat",
+          "studyText": "Çalışma",
+          "breakText": "Mola",
+          "modeText": "Zamanlayıcı şu anda çalışıyor"
+        }
+      },
+      "settingsPage": {
+        "title": "Ayarlar",
+        "appThemeOptionText": "Uygulama Teması",
+        "themesSelect": [{"value": "dark light", "name": "Varsayılan"}, {"value": "dark", "name": "Karanlık"}, {"value": "light", "name": "Aydınlık"}],
+        "appLangOptionText": "Uygulama Dili",
+        "ringtonesOptionText": "Uygulama içi sesleri ve uyarıları aktifleştir",
+        "cardsAnimationsOptionText": "Kart animasyonlarını aktifleştir",
+        "howAppWorksSection": {
+          "ques": "Uygulama nasıl çalışır?",
+          "answr": "Uygulama her dakika tüm görevlerin ve derslerin durumunu kontrol eder ve buna göre bildirim gönderir. Gece yarısı olup gün bittiğinde, tamamlanmamış (bekleyen) tüm ögeler otomatik olarak 'tamamlandı' olarak sınıflandırılıp ilgili bölüme taşınır; ardından günlük ve haftalık performansınızı inceleyebilmeniz için günün nihai sonucu istatistikler bölümüne kaydedilir."
+        },
+        "howCanHelpMeSection": {
+          "ques": "Uygulama size nasıl yardımcı olabilir?",
+          "answr": "Uygulama, derslerinizi planlamanıza ve zamanınızı verimli yönetmenize yardımcı olur. Öğrenmeyi hızlandırmak için size akıllı araçlar sunar: Zamanlayıcı, Pomodoro, İstatistikler ve daha fazlası. Çalışma vakti yaklaştığında uyarı gönderir ve dersleri durumlarına veya özel tercihlerinize göre sıralar."
+        },
+        "dangerZone": {
+          "title": "Tehlikeli Bölge",
+          "removeSubsText": "Tüm dersleri sil",
+          "removeSubsBtn": "Hepsini Sil",
+          "resetText": "Uygulamayı tamamen sıfırla",
+          "resetBtn": "Sıfırla",
+          "logoutText": "Hesaptan çıkış yap",
+          "logoutBtn": "Çıkış Yap",
+          "deleteAccountText": "Hesabı kalıcı olarak sil",
+          "deleteAccountBtn": "Hesabı Sil"
+        }
+      },
+      "statisticsPage": {
+        "title": "İstatistikler",
+        "noStatisticsYet": "Henüz istatistik bulunmuyor",
+        "completedText": "tamamlandı",
+        "expiredText": "süresi doldu",
+        "pendingText": "bekliyor",
+        "totalText": "toplam",
+        "allSubjectsIsPendingTemplate": ["Tüm dersler", "beklemede"],
+        "resultWordTemplate": ["Hafta", "çok!"],
+        "resultWords": ["Efsanevi", "Mükemmel", "Harika", "Geçer", "Dengeli", "Sıradan", "Düşük", "Zoraki", "Verimsiz"]
+      }
+    }
+  }
+}

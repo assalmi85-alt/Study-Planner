@@ -1,0 +1,217 @@
+{
+  "es": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "Nueva Asignatura",
+      "filterSelectTexts": [
+        {"name": "Todo", "value": "all" },
+        {"name": "Prioridad", "value": "priority"},
+        {"name": "Nueva", "value": "new"},
+        {"name": "Completada", "value": "completed"},
+        {"name": "Vencida", "value": "expired"},
+        {"name": "Número de lecciones", "value": "lessons count"},
+        {"name": "Alfabético", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "Ajustes",
+        "homeText": "Inicio",
+        "statisticsText": "Estadísticas",
+        "searchText": "Buscar",
+        "profileText": "Perfil",
+        "complaintsText": "Quejas y Sugerencias",
+        "importText": "Importar",
+        "exportText": "Exportar",
+        "versionText": "versión"
+      },
+      "ctrlPanelBox":{
+        "addText": "Añadir asignatura",
+        "editText": "Editar asignatura",
+        "subjectsSelect": [
+          {"name": "Matemáticas", "value": "mathematics"},
+          {"name": "Física", "value":"physics"},
+          {"name": "Química", "value": "chemistry"},
+          {"name": "Biología", "value": "biology"},
+          {"name": "Inglés", "value": "english"},
+          {"name": "Árabe", "value": "arabic"},
+          {"name": "Historia", "value": "history"},
+          {"name": "Geografía", "value": "geography"},
+          {"name": "Programación", "value": "programming"},
+          {"name": "Informática", "value": "computer"},
+          {"name": "Educación Islámica", "value": "islamic"},
+          {"name": "Economía", "value": "economics"},
+          {"name": "Ciencias", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "Descripción de la asignatura...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "Alta"},
+          {"value": "middle", "name": "Media"},
+          {"value": "low", "name": "Baja"}
+        ],
+        "lessonsCountText": "Número de lecciones",
+        "subjectStudyTimeText": "Tiempo de estudio",
+        "addSubjectBtnText": "Añadir asignatura",
+        "editSubjectBtnText": "Guardar cambios"
+      },
+      "confirms": {
+        "yesBtnText": "Sí",
+        "noBtnText": "No",
+        "deleteBoxQuesText": "¿Quieres eliminar",
+        "removeSubsQuesText": "¿Estás seguro de realizar esta acción?",
+        "removeSubsDesText": "Una vez aprobada, esta acción no se puede deshacer.",
+        "logoutQuesText": "¿Quieres cerrar sesión en tu cuenta?",
+        "logoutDesText": "Perderás todos tus datos vinculados a esta cuenta de forma local.",
+        "deleteAccountQuesText": "¿Estás completamente seguro de eliminar tu cuenta?",
+        "deleteAccountDesText": "Perderás esta cuenta de forma permanente y para siempre, junto con todos los datos asociados a ella.",
+        "resetAppQuesText": "¿Quieres restablecer la aplicación?",
+        "resetAppDesText": "Esto significa eliminar todos tus datos sin excepción y cerrar sesión de forma permanente."
+      },
+      "alerts": {
+        "title": "Alerta",
+        "okBtn": "Aceptar",
+        "emptyFieldsTitle": "Por favor, completa todos los campos",
+        "emptyFieldsDes": "El sistema no puede añadir esta asignatura con campos vacíos.",
+        "subTimeStartsInTexts": ["el tiempo comienza en", "horas"],
+        "subTimeStartNowText": "¡El estudio de la asignatura ha comenzado ahora!",
+        "writeTimerDurationTitle": "Por favor, define la duración del temporizador",
+        "writeTimerDurationDes": "El sistema no puede añadir este temporizador sin especificar su duración."
+      },
+      "messages": {
+        "okBtn": "Aceptar",
+        "offlineTitle": "¡Ups, algo salió mal de nuestro lado!",
+        "offlineDes": "Tu dispositivo parece estar sin conexión. Verifica tu Wi-Fi e inténtalo de nuevo.",
+        "successSyncTitle": "¡Tus datos se han sincronizado con éxito!",
+        "successSyncDes": "Ahora puedes usar tus datos en cualquiera de tus dispositivos vinculados a esta cuenta.",
+        "successRefreshTitle": "¡Tus datos se han actualizado con éxito!",
+        "successRefreshDes": "Ya tienes la última versión de tus datos sincronizada con el servidor."
+      },
+      "import": {
+        "title": "Importar Datos",
+        "labelTitle": "Archivo de datos a importar",
+        "labelDes": "Haz clic aquí para explorar archivos.",
+        "addFileText": "Añadir archivo de datos a la aplicación",
+        "successImport": "La importación de tus datos ha sido un éxito.",
+        "syntaxNotSupport": "El formato de este archivo no es compatible.",
+        "processingText": "Procesando tus datos..."
+      },
+      "export": {
+        "title": "Exportar Datos",
+        "pressBtnToExport": "Presiona el botón de exportar para iniciar el proceso.",
+        "des": [
+          "Haz clic en",
+          "Exportar los datos",
+          "para comenzar la extracción, ",
+          "Una vez terminada la exportación,",
+          "haz clic en el botón de descarga para guardar el archivo. Luego podrás",
+          "importar ",
+          "estos datos en cualquier otra aplicación Study Planner usando este archivo."
+        ],
+        "exportBtnText": "Exportar",
+        "successExportText": "¡Tus datos se han exportado con éxito!"
+      },
+      "cards": {
+        "priorityText": "Prioridad:",
+        "lessonsCountText": "Número de lecciones:",
+        "NoDescriptionProvidedText": "Sin descripción",
+        "editBtnText": "Editar",
+        "deleteBtnText": "Eliminar",
+        "noSubjectsAddedYetText": "No se han añadido asignaturas todavía"
+      },
+      "months": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+      "search": {
+        "searchInYourSubjectsText": "Buscar en tus asignaturas...",
+        "tabSearchInpText": "Toca la barra de búsqueda para comenzar",
+        "noSubjectsFoundText": "No se encontraron asignaturas",
+        "systemCannotGetResultText": "Lo sentimos, no se pudieron obtener resultados para"
+      },
+      "profile": {
+        "title": "Perfil",
+        "welcome": "Bienvenido de nuevo,",
+        "syncText": "Sincronizar tus datos",
+        "syncBtnText": "Sincronizar",
+        "syncDes": "Sincroniza y respalda tus datos de forma segura en la nube para retomar tus estudios justo donde los dejaste—en cualquier momento, lugar y dispositivo.",
+        "updateText": "Actualizar tus datos",
+        "updateBtnText": "Actualizar",
+        "updateDes": "Es posible que tu versión actual no refleje los últimos cambios realizados en tus otros dispositivos; haz clic en 'Actualizar' para ver la versión más reciente.",
+        "linkedDevicesText": "Dispositivos vinculados"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "Prioridad:",
+        "subjectLessonsCountText": "Número de lecciones:",
+        "subjectStudyTimeText": "Tiempo de estudio:",
+        "subjectAddedDateText": "Fecha de adición:",
+        "subjectStateText": "Estado de la asignatura:",
+        "questions": {
+          "studySubjectQuesText": ["¿Has estudiado la asignatura", "?"],
+          "crashCourseQuesText": ["¿Quieres hacer un repaso intensivo de", "rápidamente?"],
+          "puttingOffStudingSubjectText": ["¿Has estado posponiendo el estudio de", "últimamente?"]
+        },
+        "sideMenu": {
+          "addTimerText": "Añadir temporizador",
+          "pomodoroText": "Técnica Pomodoro",
+          "editText": "Editar",
+          "deleteText": "Eliminar"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "Temporizador de Asignatura",
+          "addTimerText": "Añadir temporizador",
+          "writeTimerDurationText": "Define la duración del temporizador",
+          "addTimerBtnText": "+ Añadir temporizador"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "Técnica Pomodoro",
+          "pomodoroTimerInfoText": "Información del temporizador Pomodoro",
+          "studyTimeDurText": "Duración del tiempo de estudio",
+          "breakTimeDurText": "Duración del tiempo de descanso",
+          "minutesText": "minutos",
+          "about": {
+            "title": "La Técnica Pomodoro",
+            "text": "(que significa 'tomate' en italiano) es un método de gestión del tiempo y mejora de la productividad mundialmente reconocido, inventado por el desarrollador italiano Francesco Cirillo a finales de la década de 1980. El concepto consiste en dividir el tiempo de trabajo o estudio en intervalos cortos y definidos separados por breves descansos, evitando así la fatiga mental y manteniendo niveles máximos de concentración y energía."
+          },
+          "startSessionBtnText": "Iniciar la sesión",
+          "studyText": "Estudio",
+          "breakText": "Descanso",
+          "modeText": "El temporizador está en marcha ahora"
+        }
+      },
+      "settingsPage": {
+        "title": "Ajustes",
+        "appThemeOptionText": "Tema de la aplicación",
+        "themesSelect": [{"value": "dark light", "name": "Por defecto"}, {"value": "dark", "name": "Oscuro"}, {"value": "light", "name": "Claro"}],
+        "appLangOptionText": "Idioma de la aplicación",
+        "ringtonesOptionText": "Activar tonos en la aplicación",
+        "cardsAnimationsOptionText": "Activer animaciones de tarjetas",
+        "howAppWorksSection": {
+          "ques": "¿Cómo funciona la aplicación?",
+          "answr": "La aplicación comprueba el estado de cada elemento cada minuto y envía notificaciones en consecuencia. Una vez pasada la medianoche y terminado el día, cualquier elemento no completado (pendiente) se reclasifica automáticamente como 'completado' y se mueve a la sección correspondiente; el resultado final del día se registra en la sección de estadísticas para revisar tu rendimiento diario y semanal."
+        },
+        "howCanHelpMeSection": {
+          "ques": "¿Cómo te puede ayudar la aplicación?",
+          "answr": "La aplicación te ayuda a planificar el estudio de tus asignaturas y a gestionar tu tiempo de forma eficiente. Pone a tu disposición herramientas inteligentes para acelerar el aprendizaje, tales como: Temporizador, Pomodoro, Estadísticas y más. La aplicación envía una alerta cuando se acerca la hora de estudiar y clasifica las asignaturas según su estado o tus preferencias."
+        },
+        "dangerZone": {
+          "title": "Zona de Peligro",
+          "removeSubsText": "Eliminar todas las asignaturas",
+          "removeSubsBtn": "Eliminar todo",
+          "resetText": "Restablecer la aplicación por completo",
+          "resetBtn": "Restablecer","logoutText": "Cerrar sesión en la cuenta",
+          "logoutBtn": "Cerrar sesión","deleteAccountText": "Eliminar la cuenta permanentemente",
+          "deleteAccountBtn": "Eliminar cuenta"
+        }
+      },
+      "statisticsPage": {
+        "title": "Estadísticas",
+        "noStatisticsYet": "No hay estadísticas disponibles todavía",
+        "completedText": "completado",
+        "expiredText": "vencido",
+        "pendingText": "pendiente",
+        "totalText": "total",
+        "allSubjectsIsPendingTemplate": ["Todas las asignaturas están", "pendientes"],
+        "resultWordTemplate": ["¡Semana", "muy!"],
+        "resultWords": ["Legendaria", "Excelente", "Impresionante", "Aceptable", "Equilibrada", "Ordinaria", "Baja", "Apenas", "Improductiva"]
+      }
+    }
+  }
+}

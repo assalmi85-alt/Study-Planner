@@ -1,0 +1,219 @@
+{
+  "zh": {
+    "dir": "ltr",
+    "children": {
+      "base": {
+        "arrowBack": "fas fa-chevron-left"
+      },
+      "addSubjectBtn": "新建科目",
+      "filterSelectTexts": [
+        {"name": "全部", "value": "all" },
+        {"name": "优先级", "value": "priority"},
+        {"name": "新内容", "value": "new"},
+        {"name": "已完成", "value": "completed"},
+        {"name": "已过期", "value": "expired"},
+        {"name": "课时数量", "value": "lessons count"},
+        {"name": "字母顺序", "value": "alphabet"}
+      ],
+      "menu": {
+        "settingsText": "设置",
+        "homeText": "首页",
+        "statisticsText": "数据统计",
+        "searchText": "搜索",
+        "profileText": "个人中心",
+        "complaintsText": "意见与反馈",
+        "importText": "导入数据",
+        "exportText": "导出数据",
+        "versionText": "版本"
+      },
+      "ctrlPanelBox":{
+        "addText": "添加科目",
+        "editText": "编辑科目",
+        "subjectsSelect": [
+          {"name": "数学", "value": "mathematics"},
+          {"name": "物理", "value":"physics"},
+          {"name": "化学", "value": "chemistry"},
+          {"name": "生物", "value": "biology"},
+          {"name": "英语", "value": "english"},
+          {"name": "阿拉伯语", "value": "arabic"},
+          {"name": "历史", "value": "history"},
+          {"name": "地理", "value": "geography"},
+          {"name": "编程", "value": "programming"},
+          {"name": "计算机科学", "value": "computer"},
+          {"name": "伊斯兰教育", "value": "islamic"},
+          {"name": "经济学", "value": "economics"},
+          {"name": "科学", "value": "science"}
+        ],
+        "subjectDescriptionInputPlaceholder": "输入科目描述...",
+        "subjectsPrioritySelect": [
+          {"value":"high", "name": "高"}, 
+          {"value": "middle", "name": "中"}, 
+          {"value": "low", "name": "低"}
+        ],
+        "lessonsCountText": "课时数量",
+        "subjectStudyTimeText": "科目学习时间",
+        "addSubjectBtnText": "添加科目",
+        "editSubjectBtnText": "保存修改"
+      },
+      "confirms": {
+        "yesBtnText": "确定",
+        "noBtnText": "取消",
+        "deleteBoxQuesText": "您确定要删除吗：",
+        "removeSubsQuesText": "您确定要执行此操作吗？",
+        "removeSubsDesText": "一旦确认，此操作将无法撤销。",
+        "logoutQuesText": "您确定要退出登录吗？",
+        "logoutDesText": "退出后，所有本地未同步的关联数据将会丢失。",
+        "deleteAccountQuesText": "您真的确定要注销账户吗？",
+        "deleteAccountDesText": "您的账户以及所有关联数据将被永久删除，且无法找回。",
+        "resetAppQuesText": "您确定要重置应用吗？",
+        "resetAppDesText": "这意味着应用将清除包含账户在内的所有数据，并永久退出登录。"
+      },
+      "alerts": {
+        "title": "提示",
+        "okBtn": "我知道了",
+        "emptyFieldsTitle": "请填写所有必填项",
+        "emptyFieldsDes": "存在未填写的空白字段，系统无法添加该科目。",
+        "subTimeStartsInTexts": ["倒计时", "小时后开始"],
+        "subTimeStartNowText": "该科目的学习时间现在开始！",
+        "writeTimerDurationTitle": "请设置计时器时长",
+        "writeTimerDurationDes": "未指定时长，系统无法添加该计时器。"
+      },
+      "messages": {
+        "okBtn": "确 定",
+        "offlineTitle": "糟糕，网络好像开小差了！",
+        "offlineDes": "您的设备目前处于离线状态，请检查 Wi-Fi 连接后重试。",
+        "successSyncTitle": "数据同步成功！",
+        "successSyncDes": "您现在可以在登录此账户的任何其他设备上查阅和使用您的数据。",
+        "successRefreshTitle": "数据已成功更新！",
+        "successRefreshDes": "您当前拥有的是与服务器同步的最新版本数据。"
+      },
+      "import": {
+        "title": "导入数据",
+        "labelTitle": "选择要导入的数据文件",
+        "labelDes": "点击此处浏览并选择文件。",
+        "addFileText": "将数据文件导入应用",
+        "successImport": "数据导入成功！",
+        "syntaxNotSupport": "不支持此文件格式。",
+        "processingText": "正在为您处理数据，请稍候..."
+      },
+      "export": {
+        "title": "导出数据",
+        "pressBtnToExport": "点击“导出数据”按钮开始导出。",
+        "des": [
+          "点击",
+          "导出数据",
+          "以开始提取您的应用数据，",
+          "导出完成后，",
+          "点击下载按钮保存文件。随后，您可以使用该文件将数据",
+          "导入",
+          "到任何其他的 Study Planner 应用中。"
+        ],
+        "exportBtnText": "导出",
+        "successExportText": "您的数据已成功导出！"
+      },
+      "cards": {
+        "priorityText": "优先级：",
+        "lessonsCountText": "课时数量：",
+        "NoDescriptionProvidedText": "暂无相关描述",
+        "editBtnText": "编辑",
+        "deleteBtnText": "删除",
+        "noSubjectsAddedYetText": "暂无添加的科目"
+      },
+      "months": ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+      "search": {
+        "searchInYourSubjectsText": "在您的科目中搜索...",
+        "tabSearchInpText": "点击搜索栏开始搜索",
+        "noSubjectsFoundText": "未找到相关科目",
+        "systemCannotGetResultText": "抱歉，系统无法获取以下内容的检索结果："
+      },
+      "profile": {
+        "title": "个人中心",
+        "welcome": "欢迎回来，",
+        "syncText": "同步您的数据",
+        "syncBtnText": "同步",
+        "syncDes": "将您的数据安全地同步和备份到云端，让您随时随地在任何设备上都能无缝衔接之前的进度。",
+        "updateText": "更新您的数据",
+        "updateBtnText": "刷新",
+        "updateDes": "您当前的版本可能未包含其他设备上的最新更改；点击“刷新”即可获取最新数据。",
+        "linkedDevicesText": "已绑定的设备"
+      },
+      "subjectPage": {
+        "subjectPriorityText": "科目优先级：",
+        "subjectLessonsCountText": "课时数量：",
+        "subjectStudyTimeText": "学习时长：",
+        "subjectAddedDateText": "科目添加日期：",
+        "subjectStateText": "科目状态：",
+        "questions": {
+          "studySubjectQuesText": ["您今天学习了", "吗？"],
+          "crashCourseQuesText": ["您想要快速对", "进行冲刺复习吗？"],
+          "puttingOffStudingSubjectText": ["您最近是否有在拖延", "的学习？"]
+        },
+        "sideMenu": {
+          "addTimerText": "添加计时器",
+          "pomodoroText": "番茄工作法",
+          "editText": "编辑",
+          "deleteText": "删除"
+        },
+        "timerPage": {
+          "subjectTimerTitle": "科目计时器",
+          "addTimerText": "添加计时器",
+          "writeTimerDurationText": "请设定计时时长",
+          "addTimerBtnText": "+ 添加计时器"
+        },
+        "pomodoroPage": {
+          "pomodoroTitle": "番茄时钟",
+          "pomodoroTimerInfoText": "番茄时钟信息",
+          "studyTimeDurText": "专注学习时长",
+          "breakTimeDurText": "小憩休整时长",
+          "minutesText": "分钟",
+          "about": {
+            "title": "什么是番茄工作法？",
+            "text": "（Pomodoro 在意大利语中意为“西红柿”）是 1980 年代末由意大利开发者弗朗西斯科·西里洛（Francesco Cirillo）发明的一种享誉全球的时间管理和提升专注度的方法。其核心理念是将工作或学习时间划分为短暂且固定的专注区间，每个区间结束后配合极短的休息。这能有效预防大脑疲劳，并帮您全天保持最佳的注意力和精力状态。"
+          },
+          "startSessionBtnText": "开启高效专注",
+          "studyText": "专注中",
+          "breakText": "休息中",
+          "modeText": "番茄时钟正在运行中"
+        }
+      },
+      "settingsPage": {
+        "title": "设置",
+        "appThemeOptionText": "应用主题",
+        "themesSelect": [{"value": "dark light", "name": "跟随系统"}, {"value": "dark", "name": "深色"}, {"value": "light", "name": "浅色"}],
+        "appLangOptionText": "应用语言",
+        "ringtonesOptionText": "开启应用内提示音与警报",
+        "cardsAnimationsOptionText": "开启卡片动态特效",
+        "howAppWorksSection": {
+          "ques": "应用是如何运行的？",
+          "answr": "应用会每分钟核对每项科目和任务的状态，并依此发送提醒。每当午夜来临、一天结束时，任何未完成（待办）的事项都会被自动归类到“已完成”区域，并且当天最终的成果会被记录并保存到统计数据中，以便您复盘每日和每周的成果。"
+        },
+        "howCanHelpMeSection": {
+          "ques": "应用能为您提供什么帮助？",
+          "answr": "它可以协助您高效规划科目学习并代管理时间，提供一系列加快学习效率的智能工具，例如：计时器、番茄钟、数据统计等。在科目计划时间临近时，应用会发送预警提示，并支持按状态或个性化需求对科目进行科学排序。"
+        },
+        "dangerZone": {
+          "title": "危险区域",
+          "removeSubsText": "清空所有科目",
+          "removeSubsBtn": "全部删除",
+          "resetText": "彻底重置应用",
+          "resetBtn": "恢复出厂",
+          "logoutText": "退出当前登录账户",
+          "logoutBtn": "退出登录",
+          "deleteAccountText": "永久注销您的账户",
+          "deleteAccountBtn": "注销账户"
+        }
+      },
+      "statisticsPage": {
+        "title": "数据统计",
+        "noStatisticsYet": "暂无统计数据",
+        "completedText": "已完成",
+        "expiredText": "已过期",
+        "pendingText": "待处理",
+        "totalText": "总计",
+        "allSubjectsIsPendingTemplate": ["所有科目当前均为", "待处理状态"],
+        "resultWordTemplate": ["本周表现", "极了！"],
+        "resultWords": ["史诗级", "卓越", "令人惊叹", "及格", "均衡", "普通", "偏低", "勉强", "效率低下"]
+      }
+    }
+  }
+}
